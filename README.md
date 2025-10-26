@@ -2,8 +2,6 @@
 
 ### An Intelligent Sleep & Dream Wellness Application
 
-![Somnia.ai Screenshot](https://raw.githubusercontent.com/aperry938/somnia-ai-wellness-app/main/somnia_promo.png) 
-*(Note: You will need to add a screenshot of the app named `somnia_promo.png` to your repository for this image to display.)*
 
 **Live Demo:** [https://aperry938.github.io/somnia-ai-wellness-app/](https://aperry938.github.io/somnia-ai-wellness-app/)
 
