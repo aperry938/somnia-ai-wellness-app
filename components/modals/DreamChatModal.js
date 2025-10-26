@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { getDreamChatResponse } from '../../services/geminiService.js';
-import { ChatMessage, Dream } from '../../types.js';
+import type { ChatMessage, Dream } from '../../types.js';
 import { useAppContext } from '../../contexts/AppContext.js';
 
 interface DreamChatModalProps {

@@ -1,7 +1,7 @@
 
 
 import { useState, useEffect } from 'react';
-import { Theme } from '../types.js';
+import type { Theme } from '../types.js';
 
 export const useClock = () => {
     const [date, setDate] = useState(new Date());

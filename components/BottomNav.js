@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Page } from '../types.js';
+import type { Page } from '../types.js';
 
 interface NavItemProps {
     page: Page;

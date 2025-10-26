@@ -1,5 +1,5 @@
 
-import { Soundscape } from '../types.js';
+import type { Soundscape } from '../types.js';
 
 let audioContext: AudioContext | null = null;
 

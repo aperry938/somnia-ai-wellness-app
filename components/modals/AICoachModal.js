@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { getCoachResponse } from '../../services/geminiService.js';
-import { ChatMessage } from '../../types.js';
+import type { ChatMessage } from '../../types.js';
 
 export const AICoachModal: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     const [history, setHistory] = useState<ChatMessage[]>([]);

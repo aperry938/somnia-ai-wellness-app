@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useAppContext } from '../../contexts/AppContext.js';
-import { Dream } from '../../types.js';
+import type { Dream } from '../../types.js';
 
 const DreamItem: React.FC<{ dream: Dream; onSelect: (id: number) => void }> = ({ dream, onSelect }) => {
     return (

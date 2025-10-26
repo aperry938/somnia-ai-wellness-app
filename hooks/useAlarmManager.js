@@ -1,7 +1,8 @@
 
+
 // hooks/useAlarmManager.ts
 import { useState, useEffect } from 'react';
-import { Alarm } from '../types.js';
+import type { Alarm } from '../types.js';
 import { useClock } from './useClock.js';
 import { useAppContext } from '../contexts/AppContext.js';
 

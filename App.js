@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Page } from './types.js';
+import type { Page } from './types.js';
 import { useClock } from './hooks/useClock.js';
 import { useAppContext } from './contexts/AppContext.js';
 import { useAlarmManager } from './hooks/useAlarmManager.js';

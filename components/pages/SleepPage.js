@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { GUIDED_RELAXATIONS, SLEEP_CHECKLIST_ITEMS, SOUNDSCAPES } from '../../constants.js';
-import { GuidedRelaxation, Soundscape, SleepAids } from '../../types.js';
+import type { GuidedRelaxation, Soundscape, SleepAids } from '../../types.js';
 import { AICoachModal } from '../modals/AICoachModal.js';
 import { SoundscapeModal } from '../modals/SoundscapeModal.js';
 import { GuidedRelaxationModal } from '../modals/GuidedRelaxationModal.js';

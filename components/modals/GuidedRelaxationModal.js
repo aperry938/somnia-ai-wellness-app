@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { GuidedRelaxation } from '../../types.js';
+import type { GuidedRelaxation } from '../../types.js';
 import { playBreathSound } from '../../services/audioService.js';
 import { useAppContext } from '../../contexts/AppContext.js';
 

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Soundscape } from '../../types.js';
+import type { Soundscape } from '../../types.js';
 import { playSleepSound, stopSleepSound } from '../../services/audioService.js';
 
 interface SoundscapeModalProps {

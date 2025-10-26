@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from 'react';
 import { useAppContext } from '../../contexts/AppContext.js';
 import { analyzeSleepHabits, synthesizeDreamThemes } from '../../services/geminiService.js';
-import { Biometrics, DreamSynthesis, SleepHabitAnalysis } from '../../types.js';
+import type { Biometrics, DreamSynthesis, SleepHabitAnalysis } from '../../types.js';
 import { SleepQualityChart } from '../charts/SleepQualityChart.js';
 
 const AnalysisCard: React.FC<{ title: string; description: string; buttonText: string; onAnalyze: () => void; isLoading: boolean; children: React.ReactNode; }> =

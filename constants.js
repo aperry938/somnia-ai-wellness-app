@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Soundscape, GuidedRelaxation } from './types.js';
+import type { Soundscape, GuidedRelaxation } from './types.js';
 
 // Standard props for consistent icon styling
 const iconProps = {

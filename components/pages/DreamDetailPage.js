@@ -4,7 +4,7 @@ import { useAppContext } from '../../contexts/AppContext.js';
 import { analyzeDream, generateDreamImage } from '../../services/geminiService.js';
 import { DreamChatModal } from '../modals/DreamChatModal.js';
 import { ImageModal } from '../modals/ImageModal.js';
-import { SleepAids } from '../../types.js';
+import type { SleepAids } from '../../types.js';
 
 // Evening Reflection Display Component
 const EveningReflectionDisplay: React.FC<{ aids: SleepAids }> = ({ aids }) => {

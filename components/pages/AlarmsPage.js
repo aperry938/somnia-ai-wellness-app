@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../../contexts/AppContext.js';
-import { Alarm } from '../../types.js';
+import type { Alarm } from '../../types.js';
 
 // Memoized component for a single alarm item
 const AlarmItem: React.FC<{ alarm: Alarm; onEdit: (alarm: Alarm) => void }> = React.memo(({ alarm, onEdit }) => {
