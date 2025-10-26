@@ -82,8 +82,7 @@
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
     "recharts": "https://aistudiocdn.com/recharts@^3.3.0"
   }
@@ -93,6 +92,25 @@
 </head>
 <body class="antialiased font-sans">
     <div id="root"></div>
-    <script type="text/babel" data-presets="react,typescript" src="./index.tsx"></script>
+    <script type="text/babel" data-presets="react,typescript" data-type="module">
+        import React from 'react';
+        import ReactDOM from 'react-dom/client';
+        import App from './App.js';
+        import { AppProvider } from './contexts/AppContext.js';
+
+        const rootElement = document.getElementById('root');
+        if (!rootElement) {
+          throw new Error("Could not find root element to mount to");
+        }
+
+        const root = ReactDOM.createRoot(rootElement);
+        root.render(
+          <React.StrictMode>
+            <AppProvider>
+                <App />
+            </AppProvider>
+          </React.StrictMode>
+        );
+    </script>
 </body>
 </html>
